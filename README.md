@@ -1,29 +1,26 @@
-# A Transient Current-Based Double Transmission Line Protection
-## Using Wavelet–ML Approach in the Presence of FACTS
+# A Transient Current-Based Double Transmission Line Protection Using Wavelet–ML Approach 
 
 ## Overview
 This MATLAB project proposes a fast and reliable protection scheme for
 double transmission lines using transient current signals. Discrete
 Wavelet Transform (DWT) is employed to extract high-frequency features,
-and a fuzzy logic system is used for intelligent fault detection,
+and machile Learning approach is used for intelligent fault detection,
 classification, and location under the influence of FACTS devices.
 
 ## Key Contributions
 - Double transmission line protection
 - Transient current-based fault analysis
 - Wavelet feature extraction using DWT
-- Fuzzy logic-based decision making
-- Robust performance in the presence of FACTS devices
+- Machine Learning based decision making
 - Fault detection within less than half cycle
 
 ## System Description
 - Double-circuit transmission line modeled in MATLAB/Simulink
-- FACTS devices: STATCOM / SVC
 - Fault scenarios: LG, LL, LLG, LLL, high-resistance faults
 
 ## Methodology
 1. Current signal acquisition
-2. Wavelet decomposition (Daubechies wavelet)
+2. Wavelet decomposition (Bior wavelet)
 3. Feature extraction (energy coefficients)
 4. Fault location estimation
 
@@ -34,13 +31,12 @@ classification, and location under the influence of FACTS devices.
 4. View results in `/results`
 
 ## Results
-- Accurate fault discrimination during FACTS switching
+- Accurate fault discrimination 
 - Immunity to power flow and renewable disturbances
 - High-speed protection performance
 
 ## Applications
 - Transmission line protection
-- FACTS-compensated power systems
 - Smart grid protection schemes
 
 ## Author
@@ -60,3 +56,4 @@ academic or collaborative purposes.
 The full simulation model is demonstrated via video due to the size and
 proprietary nature of Simulink files. Algorithm-level MATLAB scripts are
 provided for reference and reproducibility.
+
