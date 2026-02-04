@@ -1,2 +1,62 @@
-# wavelet-ML-double-line-protection
-ATLAB implementation of a transient current–based double transmission line protection scheme using wavelet feature extraction and machine-learning-based fault location. The project focuses on high-speed fault detection and accurate location under diverse fault conditions.
+# A Transient Current-Based Double Transmission Line Protection
+## Using Wavelet–ML Approach in the Presence of FACTS
+
+## Overview
+This MATLAB project proposes a fast and reliable protection scheme for
+double transmission lines using transient current signals. Discrete
+Wavelet Transform (DWT) is employed to extract high-frequency features,
+and a fuzzy logic system is used for intelligent fault detection,
+classification, and location under the influence of FACTS devices.
+
+## Key Contributions
+- Double transmission line protection
+- Transient current-based fault analysis
+- Wavelet feature extraction using DWT
+- Fuzzy logic-based decision making
+- Robust performance in the presence of FACTS devices
+- Fault detection within less than half cycle
+
+## System Description
+- Double-circuit transmission line modeled in MATLAB/Simulink
+- FACTS devices: STATCOM / SVC
+- Fault scenarios: LG, LL, LLG, LLL, high-resistance faults
+
+## Methodology
+1. Current signal acquisition
+2. Wavelet decomposition (Daubechies wavelet)
+3. Feature extraction (energy coefficients)
+4. Fault location estimation
+
+## How to Run
+1. Open MATLAB (R2018a or later)
+2. Run `main_simulation.m`
+3. Select fault parameters
+4. View results in `/results`
+
+## Results
+- Accurate fault discrimination during FACTS switching
+- Immunity to power flow and renewable disturbances
+- High-speed protection performance
+
+## Applications
+- Transmission line protection
+- FACTS-compensated power systems
+- Smart grid protection schemes
+
+## Author
+Dr. Ravi Kumar Goli  
+PhD – Electrical Power Systems
+
+## License
+MIT License
+
+## Note on Reproducibility
+Due to the size of Simulink models and proprietary system parameters,
+this repository provides algorithm-level MATLAB scripts and a simulation
+template. The complete runnable setup can be shared upon request for
+academic or collaborative purposes.
+
+## Note
+The full simulation model is demonstrated via video due to the size and
+proprietary nature of Simulink files. Algorithm-level MATLAB scripts are
+provided for reference and reproducibility.

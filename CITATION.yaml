@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: >
+  A Transient Current–Based Double Transmission Line Protection
+  Using a Wavelet–Machine Learning Approach
+
+message: >
+  If you use this software, methodology, or concept in your research,
+  please cite this repository. This work presents a machine learning–
+  based extension of earlier wavelet-based transmission line protection
+  research.
+
+type: software
+
+authors:
+  - family-names: Goli
+    given-names: Ravi Kumar
+    affiliation: Electrical Power Systems Researcher
+
+keywords:
+  - transmission line protection
+  - transient current analysis
+  - wavelet transform
+  - machine learning
+  - fault detection
+  - fault location
+  - power system protection
+  - FACTS devices
+
+version: 1.0.0
+
+license: MIT
+
+date-released: 2026-01-01
