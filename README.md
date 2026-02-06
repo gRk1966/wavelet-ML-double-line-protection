@@ -5,7 +5,7 @@ This MATLAB project proposes a fast and reliable protection scheme for
 double transmission lines using transient current signals. Discrete
 Wavelet Transform (DWT) is employed to extract high-frequency features,
 and machile Learning approach is used for intelligent fault detection,
-classification, and location under the influence of FACTS devices.
+classification, and location.
 
 ## Key Contributions
 - Double transmission line protection
@@ -19,10 +19,11 @@ classification, and location under the influence of FACTS devices.
 - Fault scenarios: LG, LL, LLG, LLL, high-resistance faults
 
 ## Methodology
-1. Current signal acquisition
-2. Wavelet decomposition (Bior wavelet)
-3. Feature extraction (energy coefficients)
-4. Fault location estimation
+1.Simulink model developped
+2. Current signal acquisition
+3. Wavelet decomposition (Bior wavelet)
+4. Feature extraction (energy coefficients)
+5. Fault location estimation
 
 ## How to Run
 1. Open MATLAB (R2018a or later)
@@ -56,4 +57,5 @@ academic or collaborative purposes.
 The full simulation model is demonstrated via video due to the size and
 proprietary nature of Simulink files. Algorithm-level MATLAB scripts are
 provided for reference and reproducibility.
+
 
