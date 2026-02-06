@@ -13,6 +13,8 @@ classification, and location.
 - Wavelet feature extraction using DWT
 - Machine Learning based decision making
 - Fault detection within less than half cycle
+- Fault Impact Analysis
+- Fault Location
 
 ## System Description
 - Double-circuit transmission line modeled in MATLAB/Simulink
@@ -27,14 +29,16 @@ classification, and location.
 
 ## How to Run
 1. Open MATLAB (R2018a or later)
-2. Run `main_simulation.m`
-3. Select fault parameters
-4. View results in `/results`
+2. Select MATLAB/simulink .mdl file 
+3. Run `main_simulation.m`
+4. Select fault parameters
+5. View results in `/results`
 
 ## Results
 - Accurate fault discrimination 
 - Immunity to power flow and renewable disturbances
 - High-speed protection performance
+- Fault impact Analysis
 
 ## Applications
 - Transmission line protection
@@ -57,5 +61,6 @@ academic or collaborative purposes.
 The full simulation model is demonstrated via video due to the size and
 proprietary nature of Simulink files. Algorithm-level MATLAB scripts are
 provided for reference and reproducibility.
+
 
 
