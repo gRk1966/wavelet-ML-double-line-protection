@@ -24,10 +24,11 @@ keywords:
   - fault detection
   - fault location
   - power system protection
-  - FACTS devices
+  
 
 version: 1.0.0
 
 license: MIT
 
 date-released: 2026-01-01
+
